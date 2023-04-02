@@ -1,0 +1,40 @@
+* ::before,
+::after {
+  box-sizing: border-box;
+}
+
+.about-wrapper-image {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.about-wrapper__info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-wrapper__info-text {
+  text-align: left;
+  line-height: 1.5;
+}
+
+@media (max-width: 48em) {
+  .about-wrapper__info-text {
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+
+.row {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.profile-image {
+  width: 300px;
+  box-shadow: 0 1rem 3rem #0000002d;
+}
