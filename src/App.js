@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
-      <div>
+      <div role="navigation">
         <ul className='navigation'>
           <li onClick={() => scrollToSection(aboutMeRef)} className='link'>about me</li>
           <li onClick={() => scrollToSection(projectsRef)} className='link'>projects</li>

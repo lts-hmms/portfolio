@@ -20,13 +20,13 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>A simple app built with HTML, CSS and JavaScript that uses an external API and enables the viewing of data points in detail.</p>
               </div>
-              <a className='custom-btn-live' href='https://lts-hmms.github.io/pokedex-list-app' target='_blank' rel="noreferrer">See live</a>
-              <a className='custom-btn-code' href='https://github.com/lts-hmms/pokedex-list-app' target='_blank' rel="noreferrer">See code</a>
+              <a className='custom-btn-live' href='https://lts-hmms.github.io/pokedex-list-app' aria-label="link to live project" target='_blank' rel="noreferrer">See live</a>
+              <a className='custom-btn-code' href='https://github.com/lts-hmms/pokedex-list-app' aria-label="link to project code" target='_blank' rel="noreferrer">See code</a>
             </div>
           </div>
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
-              <a href='https://lts-hmms.github.io/pokedex-list-app/' target='_blank' rel="noreferrer">
+              <a href='https://lts-hmms.github.io/pokedex-list-app/' aria-label="link to live project" target='_blank' rel="noreferrer">
                 <img className='img-fluid shadow-lg' alt='Pokédex Project Screen' src={pokedex} />
               </a>
             </div>
@@ -40,13 +40,13 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>A serverless, progressive web application (PWA) build with React, using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.</p>
               </div>
-              <a className='custom-btn-live' href='https://lts-hmms.github.io/meetup/' target='_blank' rel="noreferrer">See live</a>
-              <a className='custom-btn-code' href='https://github.com/lts-hmms/meetup' target='_blank' rel="noreferrer">See code</a>
+              <a className='custom-btn-live' href='https://lts-hmms.github.io/meetup/' aria-label="link to live project" target='_blank' rel="noreferrer">See live</a>
+              <a className='custom-btn-code' href='https://github.com/lts-hmms/meetup' aria-label="link to project code" target='_blank' rel="noreferrer">See code</a>
             </div>
           </div>
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
-              <a href='https://lts-hmms.github.io/meetup/' target='_blank' rel="noreferrer">
+              <a href='https://lts-hmms.github.io/meetup/' aria-label="link to live project" target='_blank' rel="noreferrer">
                 <img className='img-fluid shadow-lg' alt='MeetUp Project Screen' src={meetup} />
               </a>
             </div>
@@ -59,12 +59,12 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>inTouch is a chat app for mobile devices using React Native. The app provides users with a chat interface and options to share images and their location.</p>
               </div>
-              <a className='custom-btn-code' href='https://github.com/lts-hmms/inTouch' target='_blank' rel="noreferrer">See code</a>
+              <a className='custom-btn-code' href='https://github.com/lts-hmms/inTouch' aria-label="link to project code" target='_blank' rel="noreferrer">See code</a>
             </div>
           </div>
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
-              <a href='https://github.com/lts-hmms/inTouch' target='_blank' rel="noreferrer">
+              <a href='https://github.com/lts-hmms/inTouch' aria-label="link to project code" target='_blank' rel="noreferrer">
                 <img className='img-fluid shadow-lg' alt='inTouch Project Screen' src={intouch} />
               </a>
             </div>
@@ -77,13 +77,13 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>The client-side of a movie-app, build as a single-page application, allows users to create an account, logging in, save and remove movies as their favorites in a list, search a bulk of movies by title, receive information about them and updating and deleting their user profile.</p>
               </div>
-              <a className='custom-btn-live' href='https://mequal.netlify.app/' target='_blank' rel="noreferrer">See live</a>
-              <a className='custom-btn-code' href='https://github.com/lts-hmms/mequal_client' target='_blank' rel="noreferrer">See code</a>
+              <a className='custom-btn-live' href='https://mequal.netlify.app/' aria-label="link to live project" target='_blank' rel="noreferrer">See live</a>
+              <a className='custom-btn-code' href='https://github.com/lts-hmms/mequal_client' aria-label="link to project code" target='_blank' rel="noreferrer">See code</a>
             </div>
           </div>
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
-            <a href='https://mequal.netlify.app/' target='_blank' rel="noreferrer">
+            <a href='https://mequal.netlify.app/' aria-label="link to live project" target='_blank' rel="noreferrer">
                 <img className='img-fluid shadow-lg' alt='mequal React Project Screen' src={mequalReact} />
               </a>
             </div>
@@ -96,12 +96,12 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>The server-side component of a movies web application. It provides users with access to information about different movies, directors, and genres. Users are able to sign up, update their personal information, and create a list of their favorite movies.</p>
               </div>
-              <a className='custom-btn-code' href='https://github.com/lts-hmms/movie_api' target='_blank' rel="noreferrer">See code</a>
+              <a className='custom-btn-code' href='https://github.com/lts-hmms/movie_api' aria-label="link to project code" target='_blank' rel="noreferrer">See code</a>
             </div>
           </div>
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
-              <a href='https://github.com/lts-hmms/movie_api' target='_blank' rel="noreferrer">
+              <a href='https://github.com/lts-hmms/movie_api' aria-label="link to project code" target='_blank' rel="noreferrer">
                 <img className='img-fluid shadow-lg' alt='API Placeholder' src={apiPlaceholder} />
               </a>
             </div>
@@ -114,13 +114,13 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>The client-side of a movie-app, build as a single-page application, allows users to create an account, logging in, save and remove movies as their favorites in a list, receive information about them and updating and deleting their user profile.</p>
               </div>
-              <a className='custom-btn-live' href='https://lts-hmms.github.io/mequal-Angular-client/' target='_blank' rel="noreferrer">See live</a>
-              <a className='custom-btn-code' href='https://github.com/lts-hmms/mequal-Angular-client' target='_blank' rel="noreferrer">See code</a>
+              <a className='custom-btn-live' href='https://lts-hmms.github.io/mequal-Angular-client/' aria-label="link to live project" target='_blank' rel="noreferrer">See live</a>
+              <a className='custom-btn-code' href='https://github.com/lts-hmms/mequal-Angular-client' aria-label="link to project code" target='_blank' rel="noreferrer">See code</a>
             </div>
           </div>
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
-              <a href='https://lts-hmms.github.io/mequal-Angular-client/' target='_blank' rel="noreferrer">
+              <a href='https://lts-hmms.github.io/mequal-Angular-client/' aria-label="link to live project" target='_blank' rel="noreferrer">
                 <img className='img-fluid shadow-lg' alt='mequal Angular Project Screen' src={mequalAngular} />
               </a>
             </div>
