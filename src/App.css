@@ -110,10 +110,9 @@ a {
 }
 
 .top-btn-style {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
-  border: 2px solid #937cc4;
   background: #fff;
   color: #000;
   cursor: pointer;
