@@ -12,9 +12,6 @@ const ScrollToTop = () => {
           setShowScrollTopButton(false)
         }
       })
-        // window.addEventListener('scroll', () => {
-        //     window.scrollY > 300 ? setShowScrollTopButton(true) : setShowScrollTopButton(false) 
-        // })
     }, []);
 
     const scrollTop = () => {
