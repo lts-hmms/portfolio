@@ -76,6 +76,23 @@ body {
   font-size: 2em;
 }
 
+.link:hover {
+  color: #937cc4;
+}
+
+.resume-link {
+  font-family: "montserrat", sans-serif;
+  text-decoration: none;
+  display: inline;
+  cursor: pointer;
+  font-size: 1em;
+  color: #000;
+}
+
+.resume-link:hover {
+  color: #937cc4;
+}
+
 .navigation {
   text-align: center;
   padding-top: 20px;

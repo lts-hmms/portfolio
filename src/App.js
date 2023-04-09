@@ -6,6 +6,7 @@ import AboutView from './components/about-view';
 import ProjectsView from './components/projects-view';
 import ContactView from './components/contact-view';
 import FooterView from './components/footer-view';
+import ResumePDF from './assets/Resume_placeholder.pdf';
 
 function App() {
   const aboutMeRef = useRef(null);
@@ -27,6 +28,7 @@ function App() {
           <li onClick={() => scrollToSection(aboutMeRef)} className='link'>about me</li>
           <li onClick={() => scrollToSection(projectsRef)} className='link'>projects</li>
           <li onClick={() => scrollToSection(contactRef)} className='link'>contact</li>
+          <li className='link'><a href={ResumePDF} className='resume-link' aria-label="open resume on new tab" target='_blank' rel="noopener noreferrer">resume</a></li>
         </ul>
       </div>
       <div id='hero'>
