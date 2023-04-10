@@ -1,11 +1,5 @@
 import React from 'react';
 import './projects-view.css';
-import pokedex from '../assets/pokedex_screenshot.jpg';
-import meetup from '../assets/meetup_screenshot.jpg';
-import intouch from '../assets/intouch_screenshots.jpg';
-import apiPlaceholder from '../assets/api_screenshot.jpg';
-import mequalReact from '../assets/mequal_screenshot.jpg';
-import mequalAngular from '../assets/mequal_angular_screenshot.jpg';
 
 function ProjectsView() {
   return (
@@ -27,7 +21,7 @@ function ProjectsView() {
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
             <a href='https://mequal.netlify.app/' aria-label="link to live project" target='_blank' rel="noreferrer">
-                <img className='img-fluid shadow-lg' alt='mequal React Project Screen' src={mequalReact} />
+                <img className='img-fluid shadow-lg' alt='mequal React Project Screen' src='/assets/mequal_screenshot.jpg' />
               </a>
             </div>
           </div>
@@ -45,7 +39,7 @@ function ProjectsView() {
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
               <a href='https://github.com/lts-hmms/movie_api' aria-label="link to project code" target='_blank' rel="noreferrer">
-                <img className='img-fluid shadow-lg' alt='API Placeholder' src={apiPlaceholder} />
+                <img className='img-fluid shadow-lg' alt='API Placeholder' src='/assets/api_screenshot.jpg' />
               </a>
             </div>
           </div>
@@ -64,7 +58,7 @@ function ProjectsView() {
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
               <a href='https://lts-hmms.github.io/meetup/' aria-label="link to live project" target='_blank' rel="noreferrer">
-                <img className='img-fluid shadow-lg' alt='MeetUp Project Screen' src={meetup} />
+                <img className='img-fluid shadow-lg' alt='MeetUp Project Screen' src='/assets/meetup_screenshot.jpg' />
               </a>
             </div>
           </div>
@@ -83,7 +77,7 @@ function ProjectsView() {
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
               <a href='https://lts-hmms.github.io/pokedex-list-app/' aria-label="link to live project" target='_blank' rel="noreferrer">
-                <img className='img-fluid shadow-lg' alt='Pokédex Project Screen' src={pokedex} />
+                <img className='img-fluid shadow-lg' alt='Pokédex Project Screen' src='/assets/pokedex_screenshot.jpg' />
               </a>
             </div>
           </div>
@@ -102,7 +96,7 @@ function ProjectsView() {
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
               <a href='https://github.com/lts-hmms/inTouch' aria-label="link to project code" target='_blank' rel="noreferrer">
-                <img className='img-fluid shadow-lg' alt='inTouch Project Screen' src={intouch} />
+                <img className='img-fluid shadow-lg' alt='inTouch Project Screen' src='/assets/intouch_screenshots.jpg' />
               </a>
             </div>
           </div>
@@ -121,7 +115,7 @@ function ProjectsView() {
           <div className='col-lg-8 col-sm-12'>
             <div className='project-wrapper__image'>
               <a href='https://lts-hmms.github.io/mequal-Angular-client/' aria-label="link to live project" target='_blank' rel="noreferrer">
-                <img className='img-fluid shadow-lg' alt='mequal Angular Project Screen' src={mequalAngular} />
+                <img className='img-fluid shadow-lg' alt='mequal Angular Project Screen' src='/assets/mequal_angular_screenshot.jpg' />
               </a>
             </div>
           </div>

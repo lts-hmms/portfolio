@@ -1,5 +1,4 @@
 import React from 'react';
-import profileImage from '../assets/profile_dez22.jpg';
 import './about-view.css';
 
 function AboutView() {
@@ -12,7 +11,7 @@ function AboutView() {
                     <img
                             alt="ProfileImage"
                             className="profile-image img-fluid"
-                            src={profileImage}
+                            src="/assets/profile_dez22.jpg"
                     />
                 </div>
                 </div>
