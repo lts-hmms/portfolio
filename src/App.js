@@ -1,14 +1,16 @@
 import './App.css';
 import { useRef } from 'react';
+import { useTranslation } from "react-i18next";
 import ScrollToTop from './components/ScrollToTop';
 import HeroView from './components/hero-view';
 import AboutView from './components/about-view';
 import ProjectsView from './components/projects-view';
 import ContactView from './components/contact-view';
 import FooterView from './components/footer-view';
-import ResumePDF from './assets/Resume_placeholder.pdf';
+import Switch from './switch';
 
 function App() {
+  const { t } = useTranslation();
   const aboutMeRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
@@ -23,14 +25,17 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
-      <div role="navigation">
-        <ul className='navigation'>
-          <li onClick={() => scrollToSection(aboutMeRef)} className='link'>about me</li>
-          <li onClick={() => scrollToSection(projectsRef)} className='link'>projects</li>
-          <li onClick={() => scrollToSection(contactRef)} className='link'>contact</li>
-          <li className='link'><a href={ResumePDF} className='resume-link' aria-label="open resume on new tab" target='_blank' rel="noopener noreferrer">resume</a></li>
-        </ul>
-      </div>
+      <nav className="d-flex">
+        <div role="navigation" className="p-2 w-100">
+          <ul className='navigation'>
+            <li onClick={() => scrollToSection(aboutMeRef)} className='link'>{t('about_link')}</li>
+            <li onClick={() => scrollToSection(projectsRef)} className='link'>{t('projects_link')}</li>
+            <li onClick={() => scrollToSection(contactRef)} className='link'>{t('contact_link')}</li>
+            <li className='link'><a href='/Resume_placeholder.pdf' className='resume-link' aria-label="open resume on new tab" target='_blank' rel="noopener noreferrer">{t('resume_link')}</a></li>
+          </ul>
+        </div>
+        <Switch />
+      </nav>
       <div id='hero'>
           <HeroView />
       </div>
