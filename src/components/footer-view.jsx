@@ -15,7 +15,7 @@ function FooterView() {
             </a>
          </div>
          <div style={{ borderTop: "1px solid #fff ", marginLeft: 450, marginRight: 450 }}></div>
-         <p style={{fontSize:"12px"}}>2023</p>
+         <p style={{fontSize:"12px"}}>©2023</p>
     </div>
   )
 }
