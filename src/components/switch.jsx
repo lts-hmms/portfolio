@@ -41,7 +41,6 @@ function Switch() {
     selectedBackgroundColor="#000"
     wrapperBorderRadius={null}
   />
-  {console.log(toggle)}
 </div>
 
   )

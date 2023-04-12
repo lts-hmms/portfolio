@@ -7,7 +7,7 @@ import AboutView from './components/about-view';
 import ProjectsView from './components/projects-view';
 import ContactView from './components/contact-view';
 import FooterView from './components/footer-view';
-import Switch from './switch';
+import Switch from './components/switch';
 
 function App() {
   const { t } = useTranslation();
