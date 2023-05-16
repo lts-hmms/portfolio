@@ -31,7 +31,7 @@ function App() {
             <li onClick={() => scrollToSection(aboutMeRef)} className='link'>{t('about_link')}</li>
             <li onClick={() => scrollToSection(projectsRef)} className='link'>{t('projects_link')}</li>
             <li onClick={() => scrollToSection(contactRef)} className='link'>{t('contact_link')}</li>
-            <li className='link'><a href='/assets/Resume_placeholder.pdf' className='resume-link' aria-label="open resume on new tab" target='_blank' rel="noopener noreferrer">{t('resume_link')}</a></li>
+            <li className='link'><a href='/assets/Resume_JSueggeler.pdf' className='resume-link' aria-label="open resume on new tab" target='_blank' rel="noopener noreferrer">{t('resume_link')}</a></li>
           </ul>
         </div>
         <Switch />
