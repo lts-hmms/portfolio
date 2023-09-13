@@ -17,6 +17,9 @@ function ProjectsView() {
                 <p className='mb-4'>
                   {t('project_mequal_react')}
                 </p>
+                <p className='mb-4'>
+                  {t('project_mequal_react2')}
+                </p>
               </div>
               <a className='custom-btn-live' href='https://mequal.netlify.app/' aria-label="link to live project" target='_blank' rel="noreferrer">{t("see_live")}</a>
               <a className='custom-btn-code' href='https://github.com/lts-hmms/mequal_client' aria-label="link to project code" target='_blank' rel="noreferrer">{t("see_code")}</a>
@@ -38,6 +41,9 @@ function ProjectsView() {
                 <p className='mb-4'>
                   {t('project_api_movies')}
                 </p>
+                <p className='mb-4'>
+                  {t('project_api_movies2')}
+                </p>
               </div>
               <a className='custom-btn-code' href='https://github.com/lts-hmms/movie_api' aria-label="link to project code" target='_blank' rel="noreferrer">{t("see_code")}</a>
             </div>
@@ -57,6 +63,9 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>
                   {t('project_meetUp')}
+                </p>
+                <p className='mb-4'>
+                  {t('project_meetUp2')}
                 </p>
               </div>
               <a className='custom-btn-live' href='https://lts-hmms.github.io/meetup/' aria-label="link to live project" target='_blank' rel="noreferrer">{t("see_live")}</a>
@@ -101,6 +110,9 @@ function ProjectsView() {
                 <p className='mb-4'>
                   {t('project_inTouch')}
                 </p>
+                <p className='mb-4'>
+                  {t('project_inTouch2')}
+                </p>
               </div>
               <a className='custom-btn-code' href='https://github.com/lts-hmms/inTouch' aria-label="link to project code" target='_blank' rel="noreferrer">{t("see_code")}</a>
             </div>
@@ -120,6 +132,9 @@ function ProjectsView() {
               <div>
                 <p className='mb-4'>
                   {t('project_mequal_angular')}
+                </p>
+                <p className='mb-4'>
+                  {t('project_mequal_angular2')}
                 </p>
               </div>
               <a className='custom-btn-live' href='https://lts-hmms.github.io/mequal-Angular-client/' aria-label="link to live project" target='_blank' rel="noreferrer">{t("see_live")}</a>
