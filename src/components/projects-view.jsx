@@ -89,7 +89,7 @@ function ProjectsView() {
                   {t('project_pokedex')}
                 </p>
               </div>
-              <a className='custom-btn-live' href='https://lts-hmms.github.io/pokedex-list-app' aria-label="link to live project" target='_blank' rel="noreferrer">{t("see_live")}</a>
+              <a className='d-none custom-btn-live' href='https://lts-hmms.github.io/pokedex-list-app' aria-label="link to live project" target='_blank' rel="noreferrer">{t("see_live")}</a>
               <a className='custom-btn-code' href='https://github.com/lts-hmms/pokedex-list-app' aria-label="link to project code" target='_blank' rel="noreferrer">{t("see_code")}</a>
             </div>
           </div>
@@ -137,7 +137,7 @@ function ProjectsView() {
                   {t('project_mequal_angular2')}
                 </p>
               </div>
-              <a className='custom-btn-live' href='https://lts-hmms.github.io/mequal-Angular-client/' aria-label="link to live project" target='_blank' rel="noreferrer">{t("see_live")}</a>
+              <a className='d-none custom-btn-live' href='https://lts-hmms.github.io/mequal-Angular-client/' aria-label="link to live project" target='_blank' rel="noreferrer">{t("see_live")}</a>
               <a className='custom-btn-code' href='https://github.com/lts-hmms/mequal-Angular-client' aria-label="link to project code" target='_blank' rel="noreferrer">{t("see_code")}</a>
             </div>
           </div>
